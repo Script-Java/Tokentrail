@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>About page</title>
+{% endblock %}
+
+{% block body %}
+<section>
+    <nav class="bg-transparent">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="/" class="flex items-center">
+                <i class="fa-brands fa-bitcoin text-gray-200 text-3xl p-2"></i>
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tokentrail</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0">
+              <li>
+                <a href="/" class="block py-2 pl-4 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="/assets" class="block py-2 pl-4 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Assets</a>
+              </li>
+              <li>
+                <a href="/about" class="block py-2 pl-4 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+              </li>
+              <li>
+                <a href="/feedback" class="block py-2 pl-4 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+</section>
+
+<section>
+    <div class="container">
+        <p class="text-center text-3xl text-gray-200 m-8">About TokenTrail</p>
+            <div class="text-gray-200 text-3xl mb-4">
+                <a href="https://www.linkedin.com/in/atrin-shahroudi/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Script-Java">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Created With:</h2>
+            <ul class="max-w-md font-bold space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+                <li>Python</li>
+                <li>Flask</li>
+                <li>HTML</li>
+                <li>FlowBite</li>
+                <li>Tailwindcss</li>
+            </ul>
+        <h2 class="mb-2 text-lg mt-8 font-semibold text-gray-900 dark:text-white">What is TokenTrail:</h2>
+        <p class="text-xl text-gray-200 mt-8">TokenTrail is your ultimate cryptocurrency price tracker and portfolio management tool. This meticulously designed app provides real-time insights into the dynamic world of digital assets, helping you stay on top of the latest market developments. With a user-friendly interface, TokenTrail simplifies cryptocurrency tracking, making it effortless to manage your portfolio and monitor your investments. Dive into the crypto universe with TokenTrail and discover a smarter way to navigate the crypto markets.</p>
+        <p class="text-xl text-gray-200 mt-8">TokenTrail is my personal portfolio project, a testament to my passion for exploring the dynamic world of cryptocurrency and honing my development skills. It showcases my commitment to creating practical, real-world applications and my dedication to staying at the forefront of technological trends.</p>
+        <p class="text-xl text-gray-200 mt-8">Made with 💖 by Atrin</p>
+
+    </div>
+</section>
+
+
+{% endblock %}

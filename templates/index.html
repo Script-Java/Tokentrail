@@ -1,0 +1,180 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock %}
+
+{% block body %}
+  
+<section class="bg-center bg-cover bg-no-repeat bg-[url('https://images.pexels.com/photos/2541310/pexels-photo-2541310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-gray-700 bg-blend-multiply">
+    <nav class="bg-transparent">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="/" class="flex items-center">
+                <i class="fa-brands fa-bitcoin text-gray-200 text-3xl p-2"></i>
+              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Tokentrail</span>
+          </a>
+          <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0">
+              <li>
+                <a href="/" class="block py-2 pl-4 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+              </li>
+              <li>
+                <a href="/assets" class="block py-2 pl-4 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Assets</a>
+              </li>
+              <li>
+                <a href="/about" class="block py-2 pl-4 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+              </li>
+              <li>
+                <a href="/feedback" class="block py-2 pl-4 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Feedback</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Navigating the Future of Finance: Unleash the Power of Crypto with Us!</h1>
+        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">TokenTrail is your go-to platform for seamless crypto tracking and insightful analysis. We're dedicated to simplifying your crypto journey, offering a comprehensive suite of tools and resources that empower both beginners and experienced traders alike.</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a href="/assets" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-rose-700 hover:bg-rose-800 focus:ring-4 focus:ring-rose-300 dark:focus:ring-rose-900">
+                Get started
+                <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+            <a href="/about" class="inline-flex justify-center text-gray-200 hover:text-gray-800 items-center py-3 px-5 text-base font-medium text-center rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                Learn more
+            </a>  
+        </div>
+    </div>
+
+</section>
+
+<div class="bg-gray-900 pb-8">
+    <p class="text-gray-200 text-3xl text-center pt-5 pb-5 font-bold">Advantages We Offer</p>
+    
+    <div class="flex flex-wrap items-center justify-around ">
+
+        <div class="max-w-sm bg-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-4">
+            <div class="rounded w-full h-64 bg-center bg-no-repeat bg-cover" style="background-image: url('https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">1. Comprehensive Tracking, Simplified</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">TokenTrail provides all-inclusive tools for effortless crypto tracking. From real-time prices to historical data, stay informed about your investments with ease. Our advanced analytics offer valuable insights, helping you grasp market trends and make well-informed decisions.</p>
+            </div>
+        </div>
+
+        <div class="max-w-sm bg-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-4">
+            <div class="rounded bg-cover bg-no-repeat bg-center w-full h-64" style="background-image: url('https://images.pexels.com/photos/187041/pexels-photo-187041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">2. Tailored Insights for Confident Choices</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Navigate the complex crypto landscape confidently with TokenTrail's personalized insights. Our AI-driven analysis considers your goals and risk tolerance, offering recommendations that align with your strategy. Empower your decision-making with data-backed guidance.</p>
+                
+            </div>
+        </div>
+
+        <div class="max-w-sm bg-gray-800 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-4">
+            <div class="rounded w-full h-64 bg-cover bg-no-repeat bg-center" style="background-image: url('https://images.pexels.com/photos/590045/pexels-photo-590045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');"></div>
+
+            <div class="p-5">
+                <a href="#">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">3. Seamless Experience, Dedicated Support</h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Experience user-focused design and hassle-free navigation on TokenTrail. We're committed to your satisfaction. Need help? Our responsive customer support is ready to assist. Embark on your crypto journey with TokenTrail and enjoy comprehensive tracking, informed insights, and dedicated assistance.</p>
+                
+            </div>
+        </div>
+
+        
+
+    </div>
+
+</div>
+
+<section class="mt-8">
+
+    <p class="text-center font-bold text-gray-200 text-3xl p-8">Top Currencies</p>
+    <div class="container">
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">
+                            Currency
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Symbol
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Price
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Volume 24hr
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Volume 24hr Change
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            % 1Hr Change
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            % 24Hr Change
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Market Cap
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="bg-gray-900">
+                    {% for item in top_25 %}
+        
+                        <tr class="bg-gray-800 border-b">
+                            <th scope="row" class="px-6 py-4 text-lg text-white whitespace-nowrap">
+                                {{item.name}}
+                            </th>
+                            <td class="px-6 py-4 font-bold">
+                                {{item.symbol}}
+                            </td>
+                            <td class="px-6 py-4">
+                                ${{item.price}}
+                            </td>
+                            <td class="px-6 py-4">
+                                {{item.vol_24h}}
+                            </td>
+                            <td class="px-6 py-4">
+                                %{{item.vol_24h_change}}
+                            </td>
+                            <td class="px-6 py-4">
+                                %{{item.percent_change_1h}}
+                            </td>
+                            <td class="px-6 py-4">
+                                %{{item.percent_change_24h}}
+                            </td>
+                            <td class="px-6 py-4">
+                                ${{item.market_cap}}
+                            </td>
+                        </tr>
+        
+                    {% endfor %}
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="mt-20 text-center">
+        <a href="/assets" class="underline text-gray-200 font-bold text-xl">View All</a>
+    </div>
+    
+
+</section>
+
+{% endblock %}

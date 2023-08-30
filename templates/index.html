@@ -136,9 +136,11 @@
                 <tbody class="bg-gray-900">
                     {% for item in top_25 %}
         
-                        <tr class="bg-gray-800 border-b">
+                        <tr class="bg-gray-800 border-b">                            
                             <th scope="row" class="px-6 py-4 text-lg text-white whitespace-nowrap">
-                                {{item.name}}
+                                <a href="{{url_for('search_symbol', token_symbol=item.name)}}">
+                                    {{item.name}}
+                                </a>
                             </th>
                             <td class="px-6 py-4 font-bold">
                                 {{item.symbol}}
@@ -162,6 +164,7 @@
                                 ${{item.market_cap}}
                             </td>
                         </tr>
+                        
         
                     {% endfor %}
         

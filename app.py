@@ -1,5 +1,4 @@
 from flask import Flask, render_template, redirect, url_for, request
-import pretty_errors
 from scrape import CoinMarket
 from urllib.parse import unquote
 

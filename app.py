@@ -5,7 +5,6 @@ from urllib.parse import unquote
 coinmarket = CoinMarket()
 
 app = Flask(__name__)
-app.config['MAIL_SERVER'] = 'smpt.gmail.com'
 app.config['secret_key'] = 'wbqeugofbdasl3jk@b4308597jwhbdfksjdb092125sdf'
 
 @app.route('/')
